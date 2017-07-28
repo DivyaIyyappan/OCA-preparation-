@@ -6,9 +6,12 @@ public class Goria
 
 {
 static int count;
+int a;
 public static void meth()   //static method
 {
 	count++;  //static variable can access in static method
+//meth1();
+int a;
 }
 public void meth1()    //non static method
 {
