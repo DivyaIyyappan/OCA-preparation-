@@ -10,7 +10,7 @@ ZYX(int age ,int age1)
 
 @Override
 	public void meth() {
-		System.out.println("child called");
+		System.out.println("child method called");
 		super.meth();
 	
 	}
