@@ -3,8 +3,8 @@ package se;
 public class E2 {
 public static void main(String[] args) {
 	
-	int ar2[]={5,10,15,20,90,45};
-  System.arraycopy(ar2, 1, ar2, 2, 3);
+	int ar2[]={0,1,2,3,4,5,6,7,8,9};
+  System.arraycopy(ar2, 5, ar2, 1, 3);
   
 	
   
@@ -16,6 +16,11 @@ public static void main(String[] args) {
 	System.out.println(ar2[3]);
 	System.out.println(ar2[4]);
 	System.out.println(ar2[5]);
+	System.out.println(ar2[6]);
+	System.out.println(ar2[7]);
+	System.out.println(ar2[8]);
+	System.out.println(ar2[9]);
+	
 
 }
 }
