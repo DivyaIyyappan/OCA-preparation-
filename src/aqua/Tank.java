@@ -1,5 +1,5 @@
 package aqua;
 
-public class Tank {
-
+public  abstract class Tank {
+public abstract void add();
 }
